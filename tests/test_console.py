@@ -1,16 +1,18 @@
 #!/usr/bin/python3
-"""Defines unittests for console.py.
+"""This module contains unit tests for various functionalities of the console.py script.
 
-Unittest classes:
-    TestHBNBCommand_prompting
-    TestHBNBCommand_help
-    TestHBNBCommand_exit
-    TestHBNBCommand_create
-    TestHBNBCommand_show
-    TestHBNBCommand_all
-    TestHBNBCommand_destroy
-    TestHBNBCommand_update
+It includes tests for:
+
+* User interaction through prompting (`TestHBNBCommand_prompting`)
+* Displaying help messages (`TestHBNBCommand_help`)
+* Exiting the program (`TestHBNBCommand_exit`)
+* Creating new objects (`TestHBNBCommand_create`)
+* Showing existing objects (`TestHBNBCommand_show`)
+* Listing all objects (`TestHBNBCommand_all`)
+* Deleting objects (`TestHBNBCommand_destroy`)
+* Updating existing objects (`TestHBNBCommand_update`)
 """
+
 import os
 import sys
 import unittest
@@ -1568,3 +1570,4 @@ class TestHBNBCommand_count(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
