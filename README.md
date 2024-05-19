@@ -253,7 +253,7 @@ e952b772-80a5-41e9-b728-6bc4dc5c21b4
 <details>
     <summary>Imad Belaallam</summary>
     <ul>
-    <li><a href="mailto:youremail@gmail.com">e-mail</a></li>
+    <li><a href="mailto:imadbelallam@hotmail.com">e-mail</a></li>
     <li><a href="your github link">Github</a></li>
     </ul>
 </details>
