@@ -1,0 +1,10 @@
+{
+    "BaseModel.6d64c461-c63e-46eb-995b-6512ca774891": {
+        "id": "6d64c461-c63e-46eb-995b-6512ca774891",
+        "created_at": "2023-11-02T13:51:18.128944",
+        "updated_at": "2023-11-02T13:51:18.128944",
+        "name": "My_First Model",
+        "my_number": 89,
+        "__class__": "BaseModel"
+    }
+}
