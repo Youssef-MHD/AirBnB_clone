@@ -1,0 +1,97 @@
+/* Styling for the container of filters */
+.filters {
+    background-color: white; /* Set background color to white */
+    height: 70px; /* Set height to 70 pixels */
+    width: 100%; /* Set width to 100% */
+    border: solid 1px #dddddd; /* Set border with color #dddddd */
+    border-radius: 4px; /* Add border radius of 4 pixels */
+    display: flex; /* Use flexbox for layout */
+    gap: 0px; /* Set gap between child elements to 0 pixels */
+    align-items: center; /* Center align items vertically */
+}
+
+/* Styling for buttons inside the filters section */
+section.filters button {
+    font-size: 18px; /* Set font size to 18 pixels */
+    background-color: #ff5a5f; /* Set background color to #ff5a5f */
+    color: #ffffff; /* Set text color to white */
+    height: 48px; /* Set height to 48 pixels */
+    width: 20%; /* Set width to 20% of the container */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Add border radius of 4 pixels */
+    margin-left: auto; /* Auto margin left */
+    margin-right: 30px; /* Set right margin to 30 pixels */
+}
+
+/* Styling for button hover state */
+section.filters button:hover {
+    opacity: 0.9; /* Reduce opacity on hover */
+}
+
+/* Styling for locations section */
+.locations {
+    text-align: left; /* Align text to the left */
+    height: 100%; /* Set height to 100% */
+    width: 25%; /* Set width to 25% */
+    border-right: solid 1px #dddddd; /* Add right border with color #dddddd */
+}
+
+/* Styling for amenities section */
+.amenities {
+    text-align: left; /* Align text to the left */
+    height: 100%; /* Set height to 100% */
+    width: 25%; /* Set width to 25% */
+    margin: 0; /* Remove margins */
+}
+
+/* Styling for headings inside locations and amenities sections */
+.amenities h3,
+.locations h3 {
+    font-weight: 600; /* Set font weight to bold */
+    margin: 0px; /* Remove margins */
+    margin-top: 17px; /* Set top margin to 17 pixels */
+    padding-left: 30px; /* Set left padding to 30 pixels */
+}
+
+.amenities h4,
+.locations h4 {
+    margin: 0px; /* Remove margins */
+    font-weight: 400; /* Set font weight to normal */
+    font-size: 14px; /* Set font size to 14 pixels */
+    padding-left: 30px; /* Set left padding to 30 pixels */
+}
+
+/* Styling for popover */
+.popover {
+    visibility: hidden; /* Hide popover by default */
+    position: relative; /* Set position to relative */
+    background-color: #fafafa; /* Set background color to #fafafa */
+    border: solid #dddddd 1px; /* Add border with color #dddddd */
+    border-radius: 4px; /* Add border radius of 4 pixels */
+    padding: 16px; /* Add padding of 16 pixels */
+    list-style-type: none; /* Remove list styles */
+    z-index: 1; /* Set z-index to 1 */
+}
+
+/* Styling for heading inside popover list */
+.popover li h2 {
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+}
+
+/* Styling for popover list */
+.popover_list {
+    padding-left: 20px; /* Set left padding to 20 pixels */
+    list-style-type: none; /* Remove list styles */
+    padding-bottom: 18px; /* Add bottom padding of 18 pixels */
+}
+
+/* Show popover when hovering over locations */
+.locations:hover > .popover {
+    visibility: visible; /* Make popover visible on hover */
+}
+
+/* Show popover when hovering over amenities */
+.amenities:hover > .popover {
+    visibility: visible; /* Make popover visible on hover */
+}

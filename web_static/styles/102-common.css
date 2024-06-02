@@ -1,0 +1,47 @@
+/* Reset default styles for all elements */
+* {
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    list-style: none; /* Remove default list styles */
+    text-decoration: none; /* Remove default text decoration */
+    border: none; /* Remove default border */
+    outline: none; /* Remove default outline */
+}
+
+/* Set box-sizing property for HTML elements to border-box */
+html {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    z-index: 0; /* Set z-index to 0 */
+    font-size: 14px; /* Set font size */
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif; /* Set font family */
+    width: 100%; /* Set width to 100% */
+    color: #484848; /* Set text color */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: space-between; /* Space items evenly along the vertical axis */
+}
+
+/* Style spans */
+span {
+    color: #000000; /* Set text color */
+}
+
+/* Style the container */
+.container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items vertically */
+    flex-grow: 1; /* Allow container to grow */
+    margin: 2rem auto; /* Set margin */
+}
+
+/* Media query for screens with a minimum width of 992px */
+@media only screen and (min-width: 992px) {
+    body {
+        max-width: 1920px; /* Set max width of the body */
+        margin: 0 auto; /* Center the body horizontally */
+    }
+}

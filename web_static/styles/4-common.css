@@ -1,0 +1,15 @@
+/* Resetting default margin and using Arial or sans-serif font */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Setting background color */
+    background-color: #f5f5f5;
+}
+
+/* Styling the container element */
+.container {
+    /* Setting maximum width and centering it horizontally */
+    max-width: 1000px;
+    margin: 30px auto; /* 30px margin at the top and bottom, auto margin left and right for centering */
+    padding: 0 15px; /* Adding padding to the left and right sides */
+}

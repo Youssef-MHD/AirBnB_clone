@@ -1,0 +1,80 @@
+/* Styling for filters container */
+.filters {
+  background: white;
+  /* White background */
+  height: 70px;
+  /* Height of the container */
+  width: 100%;
+  /* Full width of the container */
+  border: 1px solid #ddd;
+  /* Border with color #ddd */
+  border-radius: 4px;
+  /* Rounded corners */
+  display: flex;
+  /* Flex display to align items */
+  align-items: center;
+  /* Align items vertically */
+}
+
+/* Styling for buttons within the filters section */
+section.filters button {
+  font-size: 18px;
+  /* Font size */
+  background: #ff5a5f;
+  /* Background color */
+  color: white;
+  /* Text color */
+  height: 48px;
+  /* Height of the button */
+  width: 20%;
+  /* Width of the button */
+  border: none;
+  /* No border */
+  border-radius: 4px;
+  /* Rounded corners */
+  margin: 0 30px 0 auto;
+  /* Margin for positioning */
+}
+
+/* Styling for button hover effect */
+section.filters button:hover {
+  opacity: 0.9;
+  /* Reduce opacity on hover */
+}
+
+/* Styling for locations and amenities sections */
+.locations,
+.amenities {
+  text-align: left;
+  /* Align text to the left */
+  height: 100%;
+  /* Full height of the section */
+  width: 25%;
+  /* Width of the section */
+}
+
+/* Styling for locations section */
+.locations {
+  border-right: 1px solid #ddd;
+  /* Right border with color #ddd */
+}
+
+/* Styling for heading level 3 */
+h3 {
+  font-weight: 600;
+  /* Font weight */
+  margin: 17px 0 0 30px;
+  /* Margin for positioning */
+}
+
+/* Styling for heading level 4 */
+h4 {
+  margin: 0;
+  /* Remove default margin */
+  padding: 0 0 0 30px;
+  /* Padding for positioning */
+  font-weight: 400;
+  /* Font weight */
+  font-size: 14px;
+  /* Font size */
+}

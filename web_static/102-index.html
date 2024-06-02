@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+    <link rel="stylesheet" href="styles/102-common.css">
+    <link rel="stylesheet" href="styles/102-header.css">
+    <link rel="stylesheet" href="styles/102-footer.css">
+    <link rel="stylesheet" href="styles/102-filters.css">
+    <link rel="stylesheet" href="styles/102-places.css">
+    <title>AirBnB clone</title>
+</head>
+
+<body>
+    <header>
+        <div class="mobile_nav">
+            <label for="main_check" class="main_nav_burguer">|||</label>
+            <input type="checkbox" id="main_check" name="main_check" class="main_nav_check">
+            <nav>
+                <ul class="nav_bar_level1">
+                    <li>
+                        <label for="second_check"><span>States</span></label>
+                        <input type="checkbox" name="second_check" id="second_check">
+                        <ul>
+                            <li><span>Marrakech</span></li>
+                            <li><span>Casablanca</span></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <label for="third_check"><span>Amenities</span></label>
+                        <input type="checkbox" name="second_check" id="third_check">
+                        <ul>
+                            <li><span>Internet</span></li>
+                            <li><span>Parking</span></li>
+                            <li><span>Wifi</span></li>
+                            <li><span>Pool</span></li>
+                            <li><span>Kitchen</span></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- final del main_nav_bar -->
+        </div>
+    </header>
+    <div class="container">
+        <section class="filters">
+            <div class="locations">
+                <h3>States</h3>
+                <h4>Marrakech, Casablanca...</h4>
+                <ul class="popover">
+                    <li>
+                        <h2>Marrakech:</h2>
+                        <ul>
+                            <li>Marrakech</li>
+                            <li>Safi</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Casablanca:</h2>
+                        <ul>
+                            <li>Casablanca</li>
+                            <li>Mohamedia</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Internet, Pool...</h4>
+                <ul class="popover">
+                    <li>Internet</li>
+                    <li>Tv Cable</li>
+                    <li>Kitchen</li>
+                    <li>Pool</li>
+                </ul>
+            </div>
+            <button type="button" name="button">Search</button>
+        </section>
+        <!-- end fiter-->
+
+        <section class="places">
+            <h1>Places</h1>
+            <article>
+                <!-- My home -->
+                <div class="article_places_header">
+                    <h2>My home</h2>
+                    <div class="price_by_night">$80</div>
+                </div>
+                <div class="information">
+                    <div class="max_guest">2 Guests</div>
+                    <div class="number_rooms">1 Bedroom</div>
+                    <div class="number_bathrooms">1 Bathroom</div>
+                </div>
+                <!-- end information -->
+                <div class="user">
+                    <p><b>Owner:</b> Alex Johnson</p>
+                </div>
+                <!-- end user -->
+                <div class="description">
+                    <p>
+                        Experience the charm of our cozy 1 bedroom, 1 bathroom apartment perfect for 2 guests. Nestled
+                        in the heart of Nairobi's Kileleshwa, this home is conveniently located near subway line 1, with
+                        easy access to local attractions. Enjoy a comfortable stay with all the amenities you need,
+                        including a nearby subway line that offers quick access to People Square, Bund, and Westmall.
+                    </p>
+                </div>
+                <!-- end description -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv Cable
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>2 Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Grace Nyaga the 27th August 2023</h3>
+                            <p>Alex is an epic host. Nothing more i can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Lemaiyan 4th August 2023</h3>
+                            <p>Higly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end My home -->
+
+            <article>
+                <h2>Tiny house</h2>
+                <div class="price_by_night">$65</div>
+                <div class="information">
+                    <div class="max_guest">4 Guests</div>
+                    <div class="number_rooms">2 Bedrooms</div>
+                    <div class="number_bathrooms">1 Bathroom</div>
+                </div>
+                <!-- end information -->
+                <div class="user">
+                    <p><b>Owner:</b> Sarah Kim</p>
+                </div>
+                <!-- end user -->
+                <div class="description">
+                    <p>
+                        Welcome to our delightful Tiny House! This stand-alone guest house is just minutes from the
+                        French Quarters, downtown, The Fair Grounds (Jazz Fest), and City Park. With 2 bedrooms and 1
+                        bathroom, it comfortably accommodates 4 guests. Enjoy the cozy living room, mini kitchen, and
+                        full bath. The high ceilings and handmade counter area add a spacious and unique touch. Relax on
+                        the porch/deck with a glass of Merlot and soak in the atmosphere.
+                    </p>
+                </div>
+                <!-- end description -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>1 Review</h2>
+                    <ul>
+                        <li>
+                            <h3>From Maxwell the 15th August 2023</h3>
+                            <p>Sarah is an epic host. Nothing more i can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Jacquline 4th August 2022</h3>
+                            <p>Higly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <h2>A suite</h2>
+                <div class="price_by_night">$190</div>
+                <div class="information">
+                    <div class="max_guest">5 Guests</div>
+                    <div class="number_rooms">3 Bedroom</div>
+                    <div class="number_bathrooms">2 Bathroom</div>
+                </div>
+                <!-- end information -->
+                <div class="user">
+                    <p><b>Owner:</b> Emily Davis</p>
+                </div>
+                <!-- end user -->
+                <div class="description">
+                    <p>
+                        Discover luxury in our exclusive suite, ideal for 2 guests. This elegant space features a
+                        comfortable bedroom and a stylish bathroom, perfect for a relaxing getaway. The suite's design
+                        draws inspiration from classical Latin literature, creating a unique and sophisticated
+                        atmosphere. Enjoy modern amenities and a central location that offers easy access to the city's
+                        finest attractions.
+                    </p>
+                </div>
+                <!-- end description -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>1 Review</h2>
+                    <ul>
+                        <li>
+                            <h3>From Emily the 13th August 2023</h3>
+                            <p>I love this place. Amazing!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
+            <article>
+                <!-- My home -->
+                <div class="article_places_header">
+                    <h2>My house</h2>
+                    <div class="price_by_night">$50</div>
+                </div>
+                <div class="information">
+                    <div class="max_guest">2 Guests</div>
+                    <div class="number_rooms">1 Bedroom</div>
+                    <div class="number_bathrooms">1 Bathroom</div>
+                </div>
+                <!-- end information -->
+                <div class="user">
+                    <p><b>Owner:</b>Youssef Nciri</p>
+                </div>
+                <!-- end user -->
+                <div class="description">
+                    <p>
+                        Nestled in the heart of Lamu, this charming apartment features 1 bathroom and comfortably
+                        accommodates 2 guests. Positioned conveniently next to subway line 1, it's just 1 stop away from
+                        People Square, 2 stops from the Bund, and a mere 3 stops from Jungan Apartments.
+                    </p>
+                </div>
+                <!-- end description -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>2 Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Bob Dylan the 27th August 2023</h3>
+                            <p>Youssef is an epic host. Nothing more i can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Malang 4th August 2022</h3>
+                            <p>Higly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end My home -->
+
+            <article>
+                <!-- My home -->
+                <div class="article_places_header">
+                    <h2>Youssef Rooms</h2>
+                    <div class="price_by_night">$75</div>
+                </div>
+                <div class="information">
+                    <div class="max_guest">2 Guests</div>
+                    <div class="number_rooms">2 Bedroom</div>
+                    <div class="number_bathrooms">1 Bathroom</div>
+                </div>
+                <!-- end information -->
+                <div class="user">
+                    <p><b>Owner:</b> Hassan Hankous</p>
+                </div>
+                <!-- end user -->
+                <div class="description">
+                    <p>
+                        This charming apartment features 1 bathroom and comfortably sleeps 2 guests. Positioned in the
+                        heart of Lamu, it's conveniently situated next to subway line 1, just 1 stop away from People
+                        Square, 2 stops from the Bund, and 3 stops from Jungan apartments.
+                    </p>
+                </div>
+                <!-- end description -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>2 Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Bob Dylan the 27th August 2023</h3>
+                            <p>Hassan is an epic host. Nothing more i can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Connor 4th January 2022</h3>
+                            <p>Higly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end My home -->
+
+            <article>
+                <!-- My home -->
+                <div class="article_places_header">
+                    <h2>Uptown Lodge</h2>
+                    <div class="price_by_night">$234</div>
+                </div>
+                <div class="information">
+                    <div class="max_guest">8 Guests</div>
+                    <div class="number_rooms">3 Bedroom</div>
+                    <div class="number_bathrooms">3 Bathroom</div>
+                </div>
+                <!-- end information -->
+                <div class="user">
+                    <p><b>Owner:</b> Ilyas Bensghir</p>
+                </div>
+                <!-- end user -->
+                <div class="description">
+                    <p>
+                        This cozy apartment features 1 bathroom and comfortably sleeps 2 guests. Situated in the heart
+                        of Lamu, it's conveniently located next to subway line 1. Just 1 stop away from People Square, 2
+                        stops from Bund, and 3 stops from Jungan Apartments, it offers easy access to the city's
+                        attractions.
+                    </p>
+                </div>
+                <!-- end description -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <div class="reviews">
+                    <h2>2 Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Bob Dylan the 27th August 2022</h3>
+                            <p>Ilyas is an epic host. Nothing more i can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Connor 4th August 2022</h3>
+                            <p>Higly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end My home -->
+        </section>
+        <!-- end section -->
+    </div>
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+
+</html>

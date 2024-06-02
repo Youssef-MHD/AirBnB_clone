@@ -1,0 +1,113 @@
+header {
+    z-index: 4;
+    color: #fff;
+    height: 3.5rem;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    float: left;
+    text-align: left;
+}
+
+.main_nav_burguer {
+    margin: 0.6rem 0 0 1rem;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bolder;
+    transform: rotate(90deg);
+    color: lightslategray;
+    transition: 0.2s ease-in-out;
+}
+
+.main_nav_burguer:hover {
+    cursor: pointer;
+    transform: rotate(0deg);
+    color: silver;
+    transition: 0.2s ease-in-out;
+}
+
+#main_check:checked {
+    cursor: pointer;
+    transform: rotate(0deg);
+    color: silver;
+    transition: 0.2s ease-in-out;
+}
+
+.nav_bar_level1 {
+    width: 0%;
+    height: 0%;
+    border-radius: 4px;
+    transition: 0.2s ease-in-out;
+    background-color: aliceblue;
+}
+
+input {
+    display: none;
+}
+
+.nav_bar_level1 li ul {
+    display: none;
+}
+
+.nav_bar_level1 li {
+    display: none;
+}
+
+#main_check:checked~* .nav_bar_level1 {
+    display: block;
+}
+
+#main_check:checked~* .nav_bar_level1 li {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    color: lightslategray;
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+}
+
+.nav_bar_level1 li label span:hover,
+ul li span:hover {
+    background-color: #434343;
+    width: 100%;
+    padding: 0.2rem 1rem;
+    border-radius: 4px;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+#main_check:checked~* .nav_bar_level1 {
+    display: block;
+    margin: 1rem;
+    padding: 0.8rem;
+    flex-direction: column;
+    transition: 0.3s ease-in-out;
+    width: 50vw;
+    transition: 1s ease-in-out;
+}
+
+#second_check:checked+ul {
+    display: block;
+}
+
+#third_check:checked+ul {
+    display: block;
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {
+    header {
+        background-position: left;
+        background-position-x: 1rem;
+    }
+
+    .mobile_nav {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 992px) {}

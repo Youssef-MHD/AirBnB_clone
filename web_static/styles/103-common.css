@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 14px;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 100%;
+    color: #484848;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+span {
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin: 2rem auto;
+}
+
+.container {
+    z-index: 0;
+}
+
+.div_price_by_night {
+    z-index: 10;
+}
+
+* {
+    z-index: inherit;
+}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {
+
+    body {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+}

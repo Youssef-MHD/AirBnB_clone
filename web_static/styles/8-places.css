@@ -1,0 +1,177 @@
+/* Styles for container of places */
+.places {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Items are stacked vertically */
+    padding-left: 30px; /* Add left padding */
+}
+
+/* Styles for heading within .places */
+.places h1 {
+    font-size: 30px; /* Set font size */
+    padding: 0px; /* Reset padding */
+}
+
+/* Styles for title within .places */
+.places_title {
+    display: flex; /* Use flexbox layout */
+    padding: 0px; /* Reset padding */
+    max-height: 80px; /* Limit maximum height */
+    margin: 0px; /* Reset margin */
+}
+
+/* Styles for container of articles */
+.articles {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Items wrap to next line when necessary */
+    justify-content: center; /* Center items horizontally */
+}
+
+/* Styles for individual article */
+article {
+    width: 390px; /* Set width */
+    margin: 20px; /* Add margin */
+    padding: 20px; /* Add padding */
+    border: solid #ff5a5f 1px; /* Set border */
+    border-radius: 4px; /* Set border radius */
+    text-align: center; /* Center text */
+    font-size: 30px; /* Set font size */
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Items are stacked vertically */
+    justify-content: flex-start; /* Align items to the start */
+    padding-bottom: 30px; /* Add bottom padding */
+    position: relative; /* Set position */
+}
+
+/* Styles for title within article */
+.article_title h2 {
+    font-size: 30px; /* Set font size */
+    margin-top: -3px; /* Adjust top margin */
+    padding-left: 0%; /* Reset left padding */
+}
+
+/* Styles for container of article title */
+.article_title {
+    width: 100%; /* Set width */
+}
+
+/* Styles for price indicator */
+.price_by_night {
+    color: #ff5a5f; /* Set text color */
+    border: 4px solid #ff5a5f; /* Set border */
+    min-width: 60px; /* Set minimum width */
+    height: 60px; /* Set height */
+    font-size: 30px; /* Set font size */
+    border-radius: 50%; /* Make border circular */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    margin-left: auto; /* Automatically adjust left margin */
+    position: absolute; /* Set position */
+    top: 4px; /* Set top position */
+    right: 18px; /* Set right position */
+}
+
+/* Styles for price text within price indicator */
+.price {
+    margin-top: -1px; /* Adjust top margin */
+}
+
+/* Styles for container of information */
+.information {
+    height: 80px; /* Set height */
+    border-top: solid #dddddd 1px; /* Set top border */
+    border-bottom: solid #dddddd 1px; /* Set bottom border */
+    display: flex; /* Use flexbox layout */
+    justify-content: center; /* Center content horizontally */
+}
+
+/* Styles for maximum guest information */
+.max_guest {
+    width: 100px; /* Set width */
+    display: flex; /* Use flexbox layout */
+    height: inherit; /* Inherit height from parent */
+    flex-direction: column; /* Items are stacked vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+/* Styles for guest icon */
+.guest_icon {
+    height: inherit; /* Inherit height from parent */
+    width: inherit; /* Inherit width from parent */
+    background: url("../images/icon_group.png"); /* Set background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    margin-left: 35px; /* Add left margin */
+}
+
+/* Styles for number of guests */
+.guest_number h2 {
+    font-size: 14px; /* Set font size */
+    color: #484848; /* Set text color */
+    font-weight: normal; /* Set font weight */
+}
+
+/* Styles for number of rooms */
+.number_rooms {
+    width: 100px; /* Set width */
+    display: flex; /* Use flexbox layout */
+    height: inherit; /* Inherit height from parent */
+    flex-direction: column; /* Items are stacked vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+/* Styles for rooms icon */
+.rooms_icon {
+    height: inherit; /* Inherit height from parent */
+    width: inherit; /* Inherit width from parent */
+    background: url("../images/icon_bed.png"); /* Set background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    margin-left: 35px; /* Add left margin */
+}
+
+/* Styles for number of rooms */
+.rooms_number h2 {
+    font-size: 14px; /* Set font size */
+    color: #484848; /* Set text color */
+    font-weight: normal; /* Set font weight */
+}
+
+/* Styles for number of bathrooms */
+.number_bathrooms {
+    width: 100px; /* Set width */
+    display: flex; /* Use flexbox layout */
+    height: inherit; /* Inherit height from parent */
+    flex-direction: column; /* Items are stacked vertically */
+    justify-content: center; /* Center content vertically */
+}
+
+/* Styles for bathrooms icon */
+.bathrooms_icon {
+    height: inherit; /* Inherit height from parent */
+    width: inherit; /* Inherit width from parent */
+    background: url("../images/icon_bath.png"); /* Set background image */
+    background-repeat: no-repeat; /* Prevent background from repeating */
+    margin-left: 35px; /* Add left margin */
+}
+
+/* Styles for number of bathrooms */
+.bathrooms_number h2 {
+    font-size: 14px; /* Set font size */
+    color: #484848; /* Set text color */
+    font-weight: normal; /* Set font weight */
+}
+
+/* Styles for user information */
+.user {
+    font-size: 14px; /* Set font size */
+    color: #484848; /* Set text color */
+    text-align: left; /* Align text to the left */
+    margin-top: 15px; /* Add top margin */
+}
+
+/* Styles for description */
+.description {
+    font-size: 14px; /* Set font size */
+    text-align: left; /* Align text to the left */
+    margin-top: 7px; /* Add top margin */
+    margin-bottom: 0px; /* Reset bottom margin */
+}

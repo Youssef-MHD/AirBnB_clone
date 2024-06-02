@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Character set for the HTML document -->
+    <meta charset="utf-8">
+    <!-- Title of the webpage -->
+    <title>AirBnB Clone</title>
+    <!-- Linking CSS files for styling the webpage -->
+    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
+    <link rel="stylesheet" type="text/css" href="styles/8-places.css">
+    <!-- Linking a favicon for the webpage -->
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+    <!-- Header section of the webpage -->
+    <header>
+        <div class="logo"></div>
+    </header>
+    <!-- Main content container -->
+    <div class="container">
+        <!-- Filters section for location and amenities -->
+        <section class="filters">
+            <div class="locations">
+                <h3>States</h3>
+                <h4>Marrakech, Casablanca...</h4>
+                <ul class="popover">
+                    <li>
+                        <h2>Marrakech:</h2>
+                    </li>
+                    <li>
+                        <ul class="popover_list">
+                            <li>Marrakech</li>
+                            <li>Safi</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Casablanca:</h2>
+                    </li>
+                    <li>
+                        <ul class="popover_list">
+                            <li>Casablanca</li>
+                            <li>Mohamedia</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Internet, WiFi...</h4>
+                <ul class="popover">
+                    <li>Internet</li>
+                    <li>Parking</li>
+                    <li>Wifi</li>
+                    <li>Pool</li>
+                </ul>
+            </div>
+            <!-- Search button for filtering -->
+            <button type="button">Search</button>
+        </section>
+        <!-- Places section displaying available places -->
+        <section class="places">
+            <div class="places_title">
+                <h1>Places</h1>
+            </div>
+            <div class="articles">
+                <!-- Article for the first place -->
+                <article>
+                    <div class="price_title">
+                        <div class="article_title">
+                            <h2>My Home</h2>
+                        </div>
+                        <div class="price_by_night">
+                            <div class="price">$80</div>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <div class="guest_icon"></div>
+                            <div class="guest_number">
+                                <h2>2 Guests</h2>
+                            </div>
+                        </div>
+                        <div class="number_rooms">
+                            <div class="rooms_icon"></div>
+                            <div class="rooms_number">
+                                <h2>1 Bedroom</h2>
+                            </div>
+                        </div>
+                        <div class="number_bathrooms">
+                            <div class="bathrooms_icon"></div>
+                            <div class="bathrooms_number">
+                                <h2>1 Bathroom</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user"><b>Owner:</b> Alex Johnson</div>
+                    <div class="description">
+                        Experience the charm of our cozy 1 bedroom, 1 bathroom apartment perfect for 2 guests. Nestled
+                        in the heart of Nairobi's Kileleshwa, this home is conveniently located near subway line 1, with
+                        easy access to local attractions. Enjoy a comfortable stay with all the amenities you need,
+                        including a nearby subway line that offers quick access to People Square, Bund, and Westmall.
+                    </div>
+                </article>
+                <!-- Article for the second place -->
+                <article>
+                    <div class="price_title">
+                        <div class="article_title">
+                            <h2>Tiny House</h2>
+                        </div>
+                        <div class="price_by_night">
+                            <div class="price">$65</div>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <div class="guest_icon"></div>
+                            <div class="guest_number">
+                                <h2>4 Guests</h2>
+                            </div>
+                        </div>
+                        <div class="number_rooms">
+                            <div class="rooms_icon"></div>
+                            <div class="rooms_number">
+                                <h2>2 Bedrooms</h2>
+                            </div>
+                        </div>
+                        <div class="number_bathrooms">
+                            <div class="bathrooms_icon"></div>
+                            <div class="bathrooms_number">
+                                <h2>1 Bathroom</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user"><b>Owner:</b> Sarah Kim</div>
+                    <div class="description">
+                        Welcome to our delightful Tiny House! This stand-alone guest house is just minutes from the
+                        French Quarters, downtown, The Fair Grounds (Jazz Fest), and City Park. With 2 bedrooms and 1
+                        bathroom, it comfortably accommodates 4 guests. Enjoy the cozy living room, mini kitchen, and
+                        full bath. The high ceilings and handmade counter area add a spacious and unique touch. Relax on
+                        the porch/deck with a glass of Merlot and soak in the atmosphere.
+                    </div>
+                </article>
+                <!-- Article for the third place -->
+                <article>
+                    <div class="price_title">
+                        <div class="article_title">
+                            <h2>A Suite</h2>
+                        </div>
+                        <div class="price_by_night">
+                            <div class="price">$190</div>
+                        </div>
+                    </div>
+                    <div class="information">
+                        <div class="max_guest">
+                            <div class="guest_icon"></div>
+                            <div class="guest_number">
+                                <h2>2 Guests</h2>
+                            </div>
+                        </div>
+                        <div class="number_rooms">
+                            <div class="rooms_icon"></div>
+                            <div class="rooms_number">
+                                <h2>1 Bedroom</h2>
+                            </div>
+                        </div>
+                        <div class="number_bathrooms">
+                            <div class="bathrooms_icon"></div>
+                            <div class="bathrooms_number">
+                                <h2>1 Bathroom</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="user"><b>Owner:</b> Emily Davis</div>
+                    <div class="description">
+                        Discover luxury in our exclusive suite, ideal for 2 guests. This elegant space features a
+                        comfortable bedroom and a stylish bathroom, perfect for a relaxing getaway. The suite's design
+                        draws inspiration from classical Latin literature, creating a unique and sophisticated
+                        atmosphere. Enjoy modern amenities and a central location that offers easy access to the city's
+                        finest attractions.
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <!-- Footer section of the webpage -->
+    <footer>Best School</footer>
+</body>
+
+</html>

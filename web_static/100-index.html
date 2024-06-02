@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <!-- Metadata and title of the page -->
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <!-- Viewport settings for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to external CSS stylesheets -->
+    <link rel="stylesheet" href="styles/4-common.css">
+    <link rel="stylesheet" href="styles/3-header.css">
+    <link rel="stylesheet" href="styles/3-footer.css">
+    <link rel="stylesheet" href="styles/6-filters.css">
+    <link rel="stylesheet" href="styles/100-places.css">
+    <!-- Favicon for the page -->
+    <link rel="icon" type="image/x-icon" href="images/icon.png">
+</head>
+
+<body>
+    <!-- Page header section -->
+    <header></header>
+
+    <div class="container">
+        <!-- Filters section -->
+        <section class="filters">
+            <!-- Location filter -->
+            <div class="locations">
+                <h3>States</h3>
+                <h4>Marrakech, Casablanca...</h4>
+                <!-- Dropdown list for locations -->
+                <ul class="popover">
+                    <li>
+                        <h2>Marrakech:</h2>
+                        <ul>
+                            <li>Marrakech</li>
+                            <li>Safi</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Casablanca:</h2>
+                        <ul>
+                            <li>Casablanca</li>
+                            <li>Mohamedia</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- Amenities filter -->
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Internet, WiFi...</h4>
+                <!-- Dropdown list for amenities -->
+                <ul class="popover">
+                    <li>Internet</li>
+                    <li>Parking</li>
+                    <li>Wifi</li>
+                    <li>Pool</li>
+                </ul>
+            </div>
+            <!-- Search button -->
+            <button type="button" name="button">Search</button>
+        </section>
+        <!-- end filter section -->
+
+        <!-- Places section -->
+        <section class="places">
+            <h1>Places</h1>
+            <!-- First place: My Home -->
+            <article>
+                <!-- Header for the place -->
+                <div class="article_places_header">
+                    <h2>My home</h2>
+                    <div class="price_by_night">$80</div>
+                </div>
+                <!-- Information about the place -->
+                <div class="information">
+                    <div class="max_guest">2 Guests</div>
+                    <div class="number_rooms">1 Bedroom</div>
+                    <div class="number_bathrooms">1 Bathroom</div>
+                </div>
+                <!-- Owner information -->
+                <div class="user">
+                    <p><b>Owner:</b> Alex Johnson</p>
+                </div>
+                <!-- Description of the place -->
+                <div class="description">
+                    <p>
+                        Experience the charm of our cozy 1 bedroom, 1 bathroom apartment perfect for 2 guests. Nestled
+                        in the heart of Nairobi's Kileleshwa, this home is conveniently located near subway line 1, with
+                        easy access to local attractions. Enjoy a comfortable stay with all the amenities you need,
+                        including a nearby subway line that offers quick access to People Square, Bund, and Westmall.
+                    </p>
+                </div>
+                <!-- Amenities of the place -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <!-- Reviews for the place -->
+                <div class="reviews">
+                    <h2>2 Reviews</h2>
+                    <ul>
+                        <li>
+                            <h3>From Grace Wakio the 27th August 2023</h3>
+                            <p>Alex is an epic host. Nothing more I can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Connor 4th August 2023</h3>
+                            <p>Highly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end My home -->
+
+            <!-- Second place: Tiny House -->
+            <article>
+                <h2>Tiny house</h2>
+                <div class="price_by_night">$65</div>
+                <div class="information">
+                    <div class="max_guest">4 Guests</div>
+                    <div class="number_rooms">2 Bedrooms</div>
+                    <div class="number_bathrooms">1 Bathroom</div>
+                </div>
+                <!-- Owner information -->
+                <div class="user">
+                    <p><b>Owner:</b> Sarah Kim</p>
+                </div>
+                <!-- Description of the place -->
+                <div class="description">
+                    <p>
+                        Welcome to our delightful Tiny House! This stand-alone guest house is just minutes from the
+                        French Quarters, downtown, The Fair Grounds (Jazz Fest), and City Park. With 2 bedrooms and 1
+                        bathroom, it comfortably accommodates 4 guests. Enjoy the cozy living room, mini kitchen, and
+                        full bath. The high ceilings and handmade counter area add a spacious and unique touch. Relax on
+                        the porch/deck with a glass of Merlot and soak in the atmosphere.
+                    </p>
+                </div>
+                <!-- Amenities of the place -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                    </ul>
+                </div>
+                <!-- Reviews for the place -->
+                <div class="reviews">
+                    <h2>1 Review</h2>
+                    <ul>
+                        <li>
+                            <h3>From Max the 15th August 2023</h3>
+                            <p>Sarah is an epic host. Nothing more I can say. 5 star!</p>
+                        </li>
+                        <li>
+                            <h3>From Connor 4th August 2023</h3>
+                            <p>Highly recommended!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end Tiny house -->
+
+            <!-- Third place: A Suite -->
+            <article>
+                <h2>A suite</h2>
+                <div class="price_by_night">$190</div>
+                <div class="information">
+                    <div class="max_guest">5 Guests</div>
+                    <div class="number_rooms">3 Bedroom</div>
+                    <div class="number_bathrooms">2 Bathroom</div>
+                </div>
+                <!-- Owner information -->
+                <div class="user">
+                    <p><b>Owner:</b> Emily Davis</p>
+                </div>
+                <!-- Description of the place -->
+                <div class="description">
+                    <p>
+                        Discover luxury in our exclusive suite, ideal for 2 guests. This elegant space features a
+                        comfortable bedroom and a stylish bathroom, perfect for a relaxing getaway. The suite's design
+                        draws inspiration from classical Latin literature, creating a unique and sophisticated
+                        atmosphere. Enjoy modern amenities and a central location that offers easy access to the city's
+                        finest attractions.
+                    </p>
+                </div>
+                <!-- Amenities of the place -->
+                <div class="amenities">
+                    <h2>Amenities</h2>
+                    <ul>
+                        <li>
+                            <div class="places_amenities_pet_friendly"></div>
+                            Pet friendly
+                        </li>
+                        <li>
+                            <div class="places_amenities_tv"></div>
+                            Tv
+                        </li>
+                        <li>
+                            <div class="places_amenities_wifi"></div>
+                            Wifi
+                        </li>
+                    </ul>
+                </div>
+                <!-- Reviews for the place -->
+                <div class="reviews">
+                    <h2>1 Review</h2>
+                    <ul>
+                        <li>
+                            <h3>From Josh Mukangala the 15th August, 2022</h3>
+                            <p>I love this place. Amazing!</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <!-- end A suite -->
+
+        </section>
+        <!-- end places section -->
+    </div>
+
+    <!-- Page footer section -->
+    <footer>
+        <p>Best School</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+/* Styling for the container of filter buttons */
+.filters {
+    background-color: white; /* Background color white */
+    height: 70px; /* Height 70 pixels */
+    width: 100%; /* Full width */
+    border: 1px solid #DDDDDD; /* Border with light gray color */
+    border-radius: 4px; /* Rounded corners */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center align items vertically */
+    justify-content: flex-end; /* Align items to the right */
+    padding-right: 30px; /* Padding on the right side */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Styling for the filter buttons */
+.filters button {
+    background-color: #FF5A5F; /* Background color */
+    color: #FFFFFF; /* Text color */
+    height: 48px; /* Height 48 pixels */
+    width: 20%; /* Width 20% of the container */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Cursor style as pointer */
+}
+
+/* Styling for the hover effect on filter buttons */
+.filters button:hover {
+    opacity: 0.9; /* Reduce opacity slightly on hover */
+}

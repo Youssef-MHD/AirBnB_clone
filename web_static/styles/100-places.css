@@ -1,0 +1,180 @@
+/* Styles for the container holding the places */
+.places {
+    display: flex; /* Display children elements in a flexbox */
+    flex-wrap: wrap; /* Wrap the elements to the next line when needed */
+    justify-content: center; /* Center the content along the main axis */
+}
+
+/* Styles for the heading within the places container */
+.places h1 {
+    width: 100%; /* Full width */
+    font-size: 30px; /* Font size */
+    padding-left: 20px; /* Padding on the left */
+    margin: 10px auto auto; /* Margin */
+}
+
+/* Styles for each article within the places container */
+.places article {
+    width: 390px; /* Width */
+    padding: 20px; /* Padding */
+    margin: 20px; /* Margin */
+    border-radius: 4px; /* Border radius */
+    border: 1px solid #ff5a5f; /* Border */
+    box-sizing: border-box; /* Box sizing */
+}
+
+/* Styles for the heading within each article */
+.places h2 {
+    font-size: 30px; /* Font size */
+    margin: 0; /* Margin */
+    padding: 0; /* Padding */
+    text-align: center; /* Text alignment */
+    flex-grow: 1; /* Allow the element to grow to fill the available space */
+}
+
+/* Additional styles for all articles */
+article {
+    z-index: -1; /* Set the stack order to be behind other elements */
+    display: flex; /* Display children elements in a flexbox */
+    flex-wrap: wrap; /* Wrap the elements to the next line when needed */
+}
+
+/* Styles for the header within each article */
+.article_places_header {
+    width: 100%; /* Full width */
+    display: flex; /* Display children elements in a flexbox */
+}
+
+/* Styles for the price displayed in each article */
+.price_by_night {
+    min-width: 60px; /* Minimum width */
+    height: 60px; /* Height */
+    color: #ff5a5f; /* Text color */
+    border: 4px solid #ff5a5f; /* Border */
+    border-radius: 50%; /* Border radius */
+    font-size: 30px; /* Font size */
+    display: flex; /* Display children elements in a flexbox */
+    align-items: center; /* Align items along the cross axis */
+    justify-content: center; /* Center the content along the main axis */
+    padding: 5px; /* Padding */
+    margin-bottom: 5px; /* Margin bottom */
+}
+
+/* Styles for the information section within each article */
+.information {
+    width: 100%; /* Full width */
+    height: 80px; /* Height */
+    border-top: 1px solid #dddddd; /* Top border */
+    border-bottom: 1px solid #dddddd; /* Bottom border */
+    display: flex; /* Display children elements in a flexbox */
+    flex-wrap: wrap; /* Wrap the elements to the next line when needed */
+    justify-content: space-evenly; /* Space items evenly along the main axis */
+}
+
+/* Styles for the user section within each article */
+.user {
+    padding: 20px 0 5px; /* Padding */
+}
+
+/* Styles for bold and paragraph elements within the user section */
+.user b,
+p {
+    margin: 0; /* Margin */
+    padding: 0; /* Padding */
+}
+
+/* Styles for the maximum number of guests icon */
+.max_guest {
+    background-image: url(../images/icon_group.png); /* Background image */
+}
+
+/* Styles for the number of rooms icon */
+.number_rooms {
+    background-image: url(../images/icon_bed.png); /* Background image */
+}
+
+/* Styles for the number of bathrooms icon */
+.number_bathrooms {
+    background-image: url(../images/icon_bath.png); /* Background image */
+}
+
+/* Styles for the maximum number of guests, number of rooms, and number of bathrooms icons */
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    width: 100px; /* Width */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    display: flex; /* Display children elements in a flexbox */
+    flex-direction: column-reverse; /* Reverse the order of items in a column */
+    background-position-x: center; /* Center the background image horizontally */
+    text-align: center; /* Text alignment */
+}
+
+/* Styles for the amenities and reviews sections within the places container */
+.places .amenities,
+.places .reviews {
+    margin-top: 40px; /* Margin top */
+    width: 100%; /* Full width */
+    height: inherit; /* Inherit height */
+}
+
+/* Styles for the lists within the amenities and reviews sections */
+.places .amenities ul,
+.places .reviews ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Padding */
+}
+
+/* Styles for the headings within the amenities and reviews sections */
+.places .amenities h2,
+.places .reviews h2 {
+    font-size: 16px; /* Font size */
+    text-align: left; /* Text alignment */
+    border-bottom: 1px solid #dddddd; /* Bottom border */
+}
+
+/* Styles for the heading within the reviews section */
+.places .reviews h3 {
+    font-size: 14px; /* Font size */
+}
+
+/* Styles for the paragraph within the reviews section */
+.places .reviews p {
+    font-size: 12px; /* Font size */
+}
+
+/* Styles for each list item within the amenities section */
+.places .amenities ul li {
+    display: flex; /* Display children elements in a flexbox */
+    flex-direction: row; /* Arrange items in a row */
+    justify-content: flex-start; /* Align items along the main axis to the start */
+    align-content: center; /* Align content along the cross axis */
+    margin-bottom: 10px; /* Margin bottom */
+    align-items: end; /* Align items along the cross axis to the end */
+}
+
+/* Styles for the pet-friendly icon within the amenities section */
+.places_amenities_pet_friendly {
+    background-image: url(../images/icon_pets.png); /* Background image */
+}
+
+/* Styles for the TV icon within the amenities section */
+.places_amenities_tv {
+    background-image: url(../images/icon_tv.png); /* Background image */
+}
+
+/* Styles for the Wi-Fi icon within the amenities section */
+.places_amenities_wifi {
+    background-image: url(../images/icon_wifi.png); /* Background image */
+}
+
+/* Styles for the pet-friendly, TV, and Wi-Fi icons within the amenities section */
+.places_amenities_pet_friendly,
+.places_amenities_tv,
+.places_amenities_wifi {
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    width: 20px; /* Width */
+    height: 20px; /* Height */
+    display: inline-block; /* Display as inline-block */
+}

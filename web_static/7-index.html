@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Specifies character encoding for the document -->
+    <meta charset="utf-8">
+
+    <!-- Title of the webpage -->
+    <title>AirBnB Clone</title>
+
+    <!-- Link to external CSS files for styling -->
+    <link rel="stylesheet" type="text/css" href="styles/4-common.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-header.css">
+    <link rel="stylesheet" type="text/css" href="styles/3-footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/6-filters.css">
+    <link rel="stylesheet" type="text/css" href="styles/7-places.css">
+
+    <!-- Link to the favicon of the webpage -->
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+    <!-- Header section containing the logo -->
+    <header>
+        <div class="logo"></div>
+    </header>
+
+    <!-- Main container of the webpage -->
+    <div class="container">
+
+        <!-- Section for filters (e.g., location, amenities) -->
+        <section class="filters">
+            <div class="locations">
+                <h3>States</h3>
+                <h4>Marrakech, Casablanca...</h4>
+
+                <!-- Popover list for locations -->
+                <ul class="popover">
+                    <li>
+                        <h2>Marrakech:</h2>
+                    </li>
+                    <li>
+                        <!-- Nested list for specific locations within Marrakech -->
+                        <ul class="popover_list">
+                            <li>Marrakech</li>
+                            <li>Safi</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <h2>Casablanca:</h2>
+                    </li>
+                    <li>
+                        <!-- Nested list for specific locations within Casablanca -->
+                        <ul class="popover_list">
+                            <li>Casablanca</li>
+                            <li>Mohamedia</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="amenities">
+                <h3>Amenities</h3>
+                <h4>Internet, WiFi...</h4>
+
+                <!-- Popover list for amenities -->
+                <ul class="popover">
+                    <li>Internet</li>
+                    <li>Parking</li>
+                    <li>Wifi</li>
+                    <li>Pool</li>
+                </ul>
+            </div>
+
+            <!-- Search button for filtering results -->
+            <button type="button">Search</button>
+        </section>
+
+        <!-- Section for displaying places -->
+        <section class="places">
+            <h1>Places</h1>
+            <div class="articles">
+                <!-- Article representing an individual place -->
+                <article>
+                    <h2>My Home</h2>
+                </article>
+                <article>
+                    <h2>Tiny House</h2>
+                </article>
+                <article>
+                    <h2>A suite</h2>
+                </article>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer section -->
+    <footer>Best School</footer>
+</body>
+
+</html>

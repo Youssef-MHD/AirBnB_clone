@@ -1,0 +1,37 @@
+/* Styles for a container with class 'places' */
+.places {
+    border: 0; /* No border */
+    padding-left: 12px; /* Add left padding */
+}
+
+/* Styles for heading 1 within 'places' container */
+.places h1 {
+    font-size: 30px; /* Set font size */
+    padding-top: 10px; /* Add top padding */
+    margin-top: 0px; /* Reset top margin */
+    margin-bottom: 0px; /* Reset bottom margin */
+}
+
+/* Styles for a container with class 'articles' */
+.articles {
+    display: flex; /* Use flexbox */
+    align-items: baseline; /* Align items to baseline */
+    flex-wrap: wrap; /* Wrap flex items */
+    justify-content: center; /* Center justify content */
+}
+
+/* Styles for articles within 'places' container */
+.places article {
+    width: 390px; /* Set width */
+    margin: 20px; /* Add margin around article */
+    padding: 20px; /* Add padding inside article */
+    border: solid #ff5a5f 1px; /* Add solid border with color */
+    border-radius: 4px; /* Add border radius */
+    text-align: center; /* Center align text */
+    font-size: 30px; /* Set font size */
+}
+
+/* Styles for heading 2 within articles */
+article h2 {
+    font-size: 30px; /* Set font size */
+}
